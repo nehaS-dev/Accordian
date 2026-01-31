@@ -1,0 +1,33 @@
+/* General Accordion Styles */
+.accordian-title {
+  width: 100%;
+  padding: 15px;
+  text-align: center;
+  background-color: #f1f1f1;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+.accordian-title:hover {
+  background-color: #e0e0e0;
+}
+
+.accordian-title[aria-expanded="true"] {
+  background-color: #d0d0d0;
+}
+.accordian-content {
+  padding: 15px;
+  background-color: #fafafa;
+  border-top: 1px solid #ddd;
+  font-size: 14px;
+  text-align: center;
+}
+
+.accordian p {
+  font-size: 16px;
+  color: #666;
+  text-align: center;
+}
